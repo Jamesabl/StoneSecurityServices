@@ -2092,7 +2092,8 @@ ul.menu li:first-child {
 
 #nav ul li:hover a,
 #nav ul li:hover span {
-  background: #fff;
+  background: #545555;
+  color: #fff;
 }
 
 #nav ul li.active a,
@@ -2222,7 +2223,7 @@ ul.menu li:first-child {
 }
 
 #footer a {
-  color: inherit;
+  color: #292929;
 }
 
 #copyright {
@@ -2230,9 +2231,11 @@ ul.menu li:first-child {
   padding: 4em 0 0 0;
   text-align: center;
 }
-
+#copyright li {
+  color: #292a2a
+}
 #copyright a {
-  color: inherit;
+  color: #292929;
 }
 @media screen and (max-width: 1680px) {
   #copyright {
@@ -3280,14 +3283,7 @@ p {
   float: right;
 }
 
-@media screen and (max-width: 980px) {
-  nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-  }
-}
+
 
 .widget.links p {
   text-align: center;
@@ -3317,7 +3313,10 @@ p {
   text-align: center;
 }
 
-
+.countries{
+  float: right;
+  padding-right: 15px;
+}
 .countries img{
   height: 15px;
   border-radius: 2px;
@@ -3356,6 +3355,9 @@ p {
   font-size: smaller;
 }
 
+#phonenumber img{
+  display: none;
+}
 
 @media screen and (max-width: 980px) {
   #content {
@@ -3371,15 +3373,33 @@ p {
   #content > :last-child {
     margin-bottom: 0 !important;
   }
-}
-
-@media screen and (max-width: 736px) {
+  .flexreverse{
+    display: flex;
+    flex-direction: column-reverse;
+  }
   #content {
     padding-bottom: 3em;
   }
+  #phonenumber{
+    font-size: x-large;  
+  }
+  #countries a{
+    padding-right: 1px;
+  }
+  #countries p{
+    font-size: small;
+    float: right;
+  }
+  #phonenumber img{
+    width: 20px;  
+    padding-right: 3px;
+  }
+
 }
+
 
 
 #mapssection{
   text-align: center;
 }
+
