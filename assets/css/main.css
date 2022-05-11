@@ -3403,3 +3403,16 @@ p {
   text-align: center;
 }
 
+
+
+.portfoliocolumn {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.potfoliorow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
