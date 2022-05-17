@@ -1996,6 +1996,11 @@ ul.menu li:first-child {
   height: 275px;
 }
 
+.widget.thumbnails .image.fit {
+  border-radius: 16px;
+  height: 400px;
+}
+
 /* Wrappers */
 
 #header-wrapper {
@@ -2950,9 +2955,18 @@ ul.menu li:first-child {
     font-size: 40px;
     font-family:sans-serif;
   }
-  
+  .widget.thumbnails .galleryimage img{
+    border-radius: 16px;
+    display: block;
+    height: 380px;
+    width: 285px;
+  }
 }
-
+.widget.thumbnails .galleryimage {
+  border-radius: 16px;
+  height: 380px;
+  width: 285px;
+}
 
 
 #bottombar {
@@ -3415,4 +3429,16 @@ p {
   content: "";
   display: table;
   clear: both;
+}
+
+.gimages {
+  display: flex;
+  flex-flow: wrap;
+}
+.gimages img {
+  margin-left: 10px;
+}
+
+.galleryh2{
+  text-align: center;
 }
