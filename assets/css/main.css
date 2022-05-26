@@ -2094,13 +2094,14 @@ ul.menu li:first-child {
 
 #nav ul li:hover a,
 #nav ul li:hover span {
-  background: #545555;
+  background: #747373;
   color: #fff;
 }
 
 #nav ul li.active a,
 #nav ul li.active span {
-  background: #fff;
+  background: #747373;
+  color: #fff;
 }
 
 #nav ul li.current a {
@@ -2142,19 +2143,19 @@ ul.menu li:first-child {
   -ms-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
   transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
   text-decoration: none;
-  color: inherit;
+  color: #292a2a;
   display: block;
   padding: 0 1.5em;
 }
 
 .dropotron li > a:hover,
 .dropotron li > span:hover {
-  background: #eee;
+  background: rgb(216, 216, 216)
 }
 
 .dropotron li.active > a,
 .dropotron li.active > span {
-  background: #eee;
+  background: rgb(206, 206, 206);
 }
 
 .dropotron.level-0 {
