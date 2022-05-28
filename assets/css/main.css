@@ -171,7 +171,7 @@ html {
 }
 
 body {
-  background-color: #fff;
+  background-color: #d2d1d4;
   background-position: top left, top left;
   background-repeat: repeat-x, repeat;
   background-size: 100% 30em, auto;
@@ -2002,7 +2002,7 @@ ul.menu li:first-child {
 
 #header-wrapper {
   padding: 2em 0 1em 0;
-  background-color: #fff !important;
+  background-color: #d2d1d4 !important;
 }
 
 #features-wrapper {
@@ -2416,8 +2416,7 @@ ul.menu li:first-child {
   /* Content */
 
   #content {
-    border-bottom: solid 1px #fff;
-    border-top: solid 1px #fff;
+
     padding-bottom: 4em;
     margin-bottom: 0 !important;
   }
@@ -2900,6 +2899,28 @@ ul.menu li:first-child {
   background-color: #292a2a; 
 }
 
+.banner.aboutus {
+  height: 420px;
+  text-align: center;
+  color: #fff;
+  background-image: url("images/aboutus.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #292a2a; 
+}
+
+.banner.gallery {
+  height: 420px;
+  text-align: center;
+  color: #fff;
+  background-image: url("images/gallery.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #292a2a; 
+}
+
 .homeoptions{
   width: 250px;
   padding-left: 40px;
@@ -2920,6 +2941,15 @@ ul.menu li:first-child {
   }
   .bannerspansmall{
     font-size: 15px;
+  }
+  .banner.gallery{
+    height: 200px;
+  }
+  .banner.aboutus{
+    height: 200px;
+  }
+  .banner.bannerspanlarge{
+    height: 10px;
   }
   .homeoptions{
     width: 200px;
@@ -3267,7 +3297,8 @@ p {
 }
 
 .sideimage {
-  max-width: 277px;
+  width: 100%;
+  height: auto;
   border-radius: 16px;
   display: flex;
   justify-content: center;
@@ -3297,6 +3328,7 @@ p {
 
 .widget.links p {
   text-align: center;
+  font-weight: 600;
 }
 
 #content h2{
@@ -3321,6 +3353,7 @@ p {
 
 #contactsection{
   text-align: center;
+  font-weight: 600;
 }
 
 .countries{
@@ -3394,9 +3427,16 @@ p {
 .gimages {
   display: flex;
   flex-flow: wrap;
+
+  
 }
 .gimages img {
   margin-left: 10px;
+  box-shadow: 6px 6px #772123;  
+  transition: .5s;
+}
+.gimages :hover{
+  margin-top: -5px;
 }
 
 .galleryh2{
@@ -3404,16 +3444,17 @@ p {
 }
 
 .gallerycontent{
-  background-color: #91282ac5;
+  background-color: #a1292c;
 }
 .gallerywrapper{
-  padding: 3px 0 3px 0 !important;
+  padding: 50px 0 3px 0 !important;
 
 }
 
 .gallerycontent .widget.thumbnails{
   margin-left: auto !important;
   margin-right: auto !important;
+  justify-content: center;
 } 
 
 #content {
@@ -3422,8 +3463,7 @@ p {
 
 @media screen and (max-width: 980px) {
   #content {
-    border-bottom: solid 1px #fff;
-    border-top: solid 1px #fff;
+
     padding-bottom: 4em;
     margin-bottom: 0 !important;
   }
@@ -3463,5 +3503,19 @@ p {
   #content {
     padding-bottom: 0;
   }
+  .sideimage {
+    width: 100%;
+    height: auto;
+  }
+  .row.gtr-50{
+    justify-content: center;
+  }
+}
 
+
+#aboutUsh3{
+  text-align: center;
+}
+#aboutUsh2{
+  text-align: center;
 }
