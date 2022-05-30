@@ -2014,6 +2014,11 @@ ul.menu li:first-child {
   box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
   padding: 5em 0 5em 0;
 }
+#main-wrapper.gallerywrapper {
+  background: #a60207;
+  box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
+  padding: 5em 0 5em 0;
+}
 
 #footer-wrapper {
   padding: 6em 0 8em 0;
@@ -2032,7 +2037,7 @@ ul.menu li:first-child {
 }
 
 #logo h1 {
-  background: #ff4486;
+  background: #a1292c;
   color: #fff;
   border-radius: 6px;
   font-family: "Oleo Script", serif;
@@ -2926,11 +2931,48 @@ ul.menu li:first-child {
   height: 420px;
   text-align: center;
   color: #fff;
-  background-image: url("images/gallery.png");
+  background-image: url("images/gallery.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #292a2a; 
+}
+
+.banner.executiveprotection {
+  height: 420px;
+  text-align: center;
+  color: #fff;
+  background-image: url("images/executiveprotection.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #292a2a; 
+}
+
+.banner.executiveprotectionnyc {
+  height: 420px;
+  text-align: center;
+  color: #fff;
+  background-image: url("images/executiveprotectionnyc.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #292a2a; 
+}
+
+
+.row.gtr-50.executiveprotection{
+  justify-content: center;
+}
+.row.gtr-50.executiveprotectionnyc{
+  justify-content: center;
+}
+
+
+#imagelefttextright.executiveprotection a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 
 .homeoptions{
@@ -2963,7 +3005,6 @@ margin: 20px;
 .contactmap{
   width: 500;
   height: 500;
- 
 }
 @media screen and (max-width: 1024px) {
   .bannerspan{
@@ -2984,6 +3025,9 @@ margin: 20px;
     height: 200px;
   }
   .banner.aboutus{
+    height: 200px;
+  }
+  .banner.executiveprotection{
     height: 200px;
   }
   .banner.contactus{
@@ -3348,6 +3392,13 @@ p {
   display: flex;
   justify-content: center;
 }
+.executivenycimage{
+  width: 100%;
+  height: 300px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+}
 
 #leftsidebarh4,
 #leftsidebarmap,
@@ -3479,11 +3530,13 @@ p {
 }
 .gimages img {
   margin-left: 10px;
-  box-shadow: 6px 6px #772123;  
   transition: .5s;
+  box-shadow: 6px 6px #4d1617;  
 }
 .gimages :hover{
   margin-top: -5px;
+  filter: drop-shadow(1px 1px #4d1617);  
+
 }
 
 .galleryh2{
@@ -3491,7 +3544,7 @@ p {
 }
 
 .gallerycontent{
-  background-color: #a1292c;
+  background-color: #a60207;
 }
 .gallerywrapper{
   padding: 50px 0 3px 0 !important;
