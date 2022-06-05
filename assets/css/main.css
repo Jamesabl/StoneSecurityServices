@@ -2897,7 +2897,7 @@ ul.menu li:first-child {
   height: 550px;
   text-align: center;
   color: #fff;
-  background-image: url("images/banner.jpg");
+  background-image: url("images/banner.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2908,7 +2908,7 @@ ul.menu li:first-child {
   height: 420px;
   text-align: center;
   color: #fff;
-  background-image: url("images/aboutus.png");
+  background-image: url("images/aboutus.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2919,7 +2919,7 @@ ul.menu li:first-child {
   height: 420px;
   text-align: center;
   color: #fff;
-  background-image: url("images/contactus.png");
+  background-image: url("images/contactus.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2942,7 +2942,69 @@ ul.menu li:first-child {
   height: 420px;
   text-align: center;
   color: #fff;
-  background-image: url("images/executiveprotection.jpg");
+  background-image: url("images/executiveprotection.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #292a2a; 
+}
+
+.banner.eventsecurity {
+  height: 420px;
+  text-align: center;
+  color: #fff;
+  background-image: url("images/unsplasheventsecurity.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #292a2a; 
+}
+
+.banner.eventsecuritynyc {
+  height: 420px;
+  text-align: center;
+  color: #fff;
+  background-image: url("images/unsplasheventsecuritynyc.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #292a2a; 
+}
+.banner.bodyguard {
+  height: 420px;
+  text-align: center;
+  color: #fff;
+  background-image: url("images/unsplashbodyguard.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #292a2a; 
+}
+.banner.bodyguardnyc {
+  height: 420px;
+  text-align: center;
+  color: #fff;
+  background-image: url("images/unsplashbodyguardnyc.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #292a2a; 
+}
+.banner.diplomaticsecurity {
+  height: 420px;
+  text-align: center;
+  color: #fff;
+  background-image: url("images/unsplashdiplomatic.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #292a2a; 
+}
+.banner.estatesecurity {
+  height: 420px;
+  text-align: center;
+  color: #fff;
+  background-image: url("images/unsplashestate.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2974,6 +3036,12 @@ ul.menu li:first-child {
   color: white;
   font-weight: bold;
 }
+
+#imagelefttextright.executiveprotection ul{
+  padding-left: 1em;
+  font-size: larger !important;
+}
+
 
 .homeoptions{
   width: 250px;
