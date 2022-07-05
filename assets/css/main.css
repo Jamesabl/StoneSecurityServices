@@ -3580,10 +3580,11 @@ p {
 }
 #content2 p{
   color: #fff;
-  font-size: smaller;
+  font-size: large;
 }
 #content2 li{
-  font-size: smaller;
+  font-size: large;
+  list-style-type: none;
 }
 
 #phonenumber img{
@@ -3600,6 +3601,7 @@ p {
 
 .portfoliorow{
   align-content: center;
+  text-align: center;
 }
 
 .portfoliocolumn {
@@ -3766,4 +3768,16 @@ p {
   .button-84 {
     height: 48px;
   }
+}
+
+
+#stoneteamdiv{
+  align-items: center;
+  text-align: center;
+}
+
+#stoneteam{
+  width: auto;
+  height: 300px;
+  border-radius: 16px;
 }
