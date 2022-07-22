@@ -2885,9 +2885,11 @@ ul.menu li:first-child {
 }
 .bannerspanlarge{
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color:rgba(41, 42, 42, .5);
+  -webkit-text-stroke-color:rgb(255, 255, 255);
   font-size: 60px;
   font-weight: bold;
+  color: #000;
+  color: rgba(0, 0, 0, 0.1);
 }
 .bannerspansmall{
   font-size: 30px;
@@ -3780,4 +3782,26 @@ p {
   width: auto;
   height: 300px;
   border-radius: 16px;
+}
+
+.diplomaticduopics {
+  text-align: center;
+}
+.diplomaticduopics img{
+  width: auto;
+  height: 200px;
+  border-radius: 16px;
+}
+
+.diplomaticsecuritymoviediv {
+  text-align:  center;
+}
+
+.diplomaticsecuritymoviediv video{
+  border-radius: 16px;
+}
+
+.galleryspan{
+  text-align: center;
+  padding-bottom: 30px;
 }
