@@ -2904,7 +2904,7 @@ ul.menu li:first-child {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #292a2a; 
+  background-color: #292a2a;
 }
 
 .banner.aboutus {
@@ -2915,7 +2915,7 @@ ul.menu li:first-child {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #292a2a; 
+  background-color: #292a2a;
 }
 
 .banner.contactus {
@@ -2926,7 +2926,7 @@ ul.menu li:first-child {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #292a2a; 
+  background-color: #292a2a;
 }
 
 
@@ -2938,7 +2938,7 @@ ul.menu li:first-child {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #292a2a; 
+  background-color: #292a2a;
 }
 
 .banner.executiveprotection {
@@ -2949,7 +2949,7 @@ ul.menu li:first-child {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #292a2a; 
+  background-color: #292a2a;
 }
 
 .banner.eventsecurity {
@@ -2960,7 +2960,7 @@ ul.menu li:first-child {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #292a2a; 
+  background-color: #292a2a;
 }
 
 .banner.eventsecuritynyc {
@@ -2971,7 +2971,7 @@ ul.menu li:first-child {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #292a2a; 
+  background-color: #292a2a;
 }
 .banner.bodyguard {
   height: 420px;
@@ -2981,7 +2981,7 @@ ul.menu li:first-child {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #292a2a; 
+  background-color: #292a2a;
 }
 .banner.bodyguardnyc {
   height: 420px;
@@ -2991,7 +2991,7 @@ ul.menu li:first-child {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #292a2a; 
+  background-color: #292a2a;
 }
 .banner.diplomaticsecurity {
   height: 420px;
@@ -3001,7 +3001,7 @@ ul.menu li:first-child {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #292a2a; 
+  background-color: #292a2a;
 }
 .banner.estatesecurity {
   height: 420px;
@@ -3011,7 +3011,7 @@ ul.menu li:first-child {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #292a2a; 
+  background-color: #292a2a;
 }
 
 .banner.executiveprotectionnyc {
@@ -3022,7 +3022,7 @@ ul.menu li:first-child {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #292a2a; 
+  background-color: #292a2a;
 }
 
 
@@ -3062,7 +3062,7 @@ margin: 20px;
 }
 
 .banneroptions img:hover{
-  opacity: 0.75; 
+  opacity: 0.75;
 }
 
 .contactuspage a,p{
@@ -3115,10 +3115,10 @@ margin: 20px;
   }
   .banner.diplomaticsecurity{
     height: 200px;
-  }  
+  }
   .banner.estatesecurity{
     height: 200px;
-  }  
+  }
   .banner.eventsecurity{
     height: 200px;
   }
@@ -3153,8 +3153,8 @@ margin: 20px;
   .banneroptions .buttons{
     margin: 2px;
   }
-  
-  
+
+
   .homeoptions{
     padding: 15px;
     border-radius:10px;
@@ -3439,7 +3439,7 @@ p {
   }
 
   #sidebar2 {
-    color: #fff; 
+    color: #fff;
   }
 
 
@@ -3627,16 +3627,16 @@ p {
   display: flex;
   flex-flow: wrap;
 
-  
+
 }
 .gimages img {
   margin-left: 10px;
   transition: .5s;
-  box-shadow: 6px 6px #4d1617;  
+  box-shadow: 6px 6px #4d1617;
 }
 .gimages :hover{
   margin-top: -5px;
-  filter: drop-shadow(1px 1px #4d1617);  
+  filter: drop-shadow(1px 1px #4d1617);
 
 }
 
@@ -3656,7 +3656,7 @@ p {
   margin-left: auto !important;
   margin-right: auto !important;
   justify-content: center;
-} 
+}
 
 #content {
   padding-bottom: 3em;
@@ -3681,7 +3681,7 @@ p {
   }
 
   #phonenumber{
-    font-size: x-large;  
+    font-size: x-large;
   }
   #countries a{
     padding-right: 1px;
@@ -3691,16 +3691,16 @@ p {
     float: right;
   }
   #phonenumber img{
-    width: 20px;  
+    width: 20px;
     padding-right: 3px;
   }
   .gimages img{
     max-height: 190px;
     max-width: 142px;
-  } 
+  }
   .gallerycontent .widget.thumbnails{
     margin-left: 10% !important;
-  } 
+  }
   #content {
     padding-bottom: 0;
   }
@@ -3720,7 +3720,6 @@ p {
 #aboutUsh2{
   text-align: center;
 }
-
 
 /* CSS */
 .button-84 {
@@ -3777,7 +3776,6 @@ p {
   }
 }
 
-
 #stoneteamdiv{
   align-items: center;
   text-align: center;
@@ -3814,7 +3812,6 @@ p {
 #imagelefttextright.executiveprotection p{
   text-align: center;
 }
-
 
 #stonelogo.stonelogo {
   height: 100px;
