@@ -3491,6 +3491,11 @@ p {
   display: flex;
   justify-content: center;
 }
+
+.sideimage img{
+  width: 398px;
+  height: 597px;
+}
 .executivenycimage{
   width: 100%;
   height: 300px;
