@@ -89,7 +89,7 @@
 											<h3>World Corporate Address</h3>
 											<section>
 												<p>Stone Security Services<br> 
-													5 Penn Plaza – 23rd Floor <br>
+													5 Penn Plaza – 19th Floor <br>
 													New York, NY 10001</p>
 										
 											
@@ -108,7 +108,43 @@
 								<div id="sidebar2">
 									<section>											
 										<footer>
-											<a href="tel:2122607444"><img src="images/sidebarbanner2.webp" class="sideimage" /></a>
+											<div id="formrecaptcha" class="formrecaptcha"></div>
+												<!--you can put this line anywhere in the site-->
+												<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+												<!--NOTE THE ACTION IS POINTING TO form-data.com-->
+												<form action="https://api.form-data.com/f/g638d8z19yqcp2im82zoq9" method="post" target="_blank">
+												<p>
+													<label for="firstname">First Name</label>
+													<input type="text" name="firstname" id="firstname"/>
+												</p>
+												<p>
+													<label for="lastname">Last Name</label>
+													<input type="text" name="lastname" id="lastname"/>
+												</p>
+												<p>
+													<label for="email">Email</label>
+													<input type="text" name="email" id="email"/>
+												</p>
+												<p>
+													<label for="cell">Cell Phone</label>
+													<input type="text" name="cell" id="cell"/>
+												</p>
+												<p>
+													<label for="subject">Subject</label>
+													<input type="text" name="subject" id="subject"/>
+												</p>
+												<p>
+													<label for="message">Message</label>
+													<input type="text" name="message" id="message"/>
+												</p>
+												<div class="g-recaptcha"
+													data-sitekey="6Lel4Z4UAAAAAOa8LO1Q9mqKRUiMYl_00o5mXJrR"></div>
+												<p>
+													<button type="submit">Submit</button>
+												</p>
+												</form>
+											</div>
 										</footer>
 									</section>
 								</div>

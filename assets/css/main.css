@@ -1575,9 +1575,9 @@ footer {
 form label {
   display: block;
   font-weight: 800;
-  margin: 0 0 1em 0;
+  margin: 0 0 0em 0;
   font-size: 0.8em;
-  color: #292a2a;
+  color: #ffffff;
 }
 
 form input[type="text"],
@@ -1603,18 +1603,18 @@ form textarea:focus {
 form input[type="text"],
 form input[type="email"],
 form input[type="password"] {
-  line-height: 3em;
-  padding: 0 1em;
+  line-height: 2em;
+  padding: 0 0em;
 }
 
 form select {
-  line-height: 3em;
-  padding: 0 1em;
+  line-height: 1em;
+  padding: 0 0em;
 }
 
 form textarea {
   min-height: 9em;
-  padding: 1em;
+  padding: 0em;
 }
 
 form ::-webkit-input-placeholder {
@@ -2976,7 +2976,7 @@ ul.menu li:first-child {
   height: 420px;
   text-align: center;
   color: #fff;
-  background-image: url("images/unsplashbodyguard.webp");
+  background-image: url("images/agent\ earpiece.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
