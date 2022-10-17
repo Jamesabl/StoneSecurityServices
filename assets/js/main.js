@@ -77,3 +77,7 @@ jQuery.event.special.mousewheel = {
       this.addEventListener("mousewheel", handle, { passive: true });
   }
 };
+
+var form = document.getElementById("formrecaptcha");
+function handleForm(event) { event.preventDefault(); }
+form.addEventListener('submit', handleForm);

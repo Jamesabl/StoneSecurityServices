@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Oleo+Script:400|Open+Sans:300,300italic,600,600italic,800&display=swap");
-@import url("fontawesome-all.min.css");
+
+@import url("assets/css/fontawesome-all.min.css");
+
 
 
 html,
@@ -155,10 +156,10 @@ textarea {
   appearance: none;
 }
 @font-face {
-  font-family: 'Pacifico';
+  font-family: 'Open Sans';
   font-style: normal;
-  font-weight: 400;
-  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
+  font-weight: 300;
+  src: url(assets\css\OpenSans-Light.ttf) format('.ttf');
   font-display: swap;
 }
 /* Basic */
@@ -2912,6 +2913,7 @@ ul.menu li:first-child {
   background-size: cover;
   background-color: #292a2a;
 
+
 }
 
 .banner.aboutus {
@@ -3215,6 +3217,24 @@ margin: 20px;
   margin: 10px;
 }
 
+#mapsicon.reviewicons {
+  height: 75px;
+  width:75px;
+  margin: 10px;
+}
+#mapsicon.reviewicons img{
+  height: 75px;
+  width:75px;
+  margin: 10px;
+}
+#mapsicon .reviewicons img{
+  height: 75px;
+  width:75px;
+  margin: 10px;
+}
+
+
+
 #yelpicon {
   border-radius: 16px;
 }
@@ -3504,10 +3524,6 @@ p {
   justify-content: center;
 }
 
-.sideimage img{
-  width: 398px;
-  height: 597px;
-}
 .executivenycimage{
   width: 100%;
   height: 300px;
@@ -3841,4 +3857,9 @@ p {
 #stonelogo.stonelogo {
   height: 100px;
   width: 305px;
+}
+
+.mapsimg{
+  height: 224px;
+  width: 273px;
 }
